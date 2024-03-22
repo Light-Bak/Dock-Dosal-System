@@ -40,6 +40,24 @@ exemple :
   5 -- localhost:8088/utilisateurs/findOne/34 (pour afficher un user a partir de sa reference)
   6 --localhost:8088/utilisateurs/supprimer/93 (pour supprimer un user par sa reference)
 
+  Les EndPoints pour la resource "Correction" sont :
 
+ 1 -- localhost:8088/correction/ajouter (pour ajourter une correction une seule fois dans la journée)
+Exemple :
+      {
+      	"valeur" : 65,
+      	"userId" : 1
+      }
 
+2 -- localhost:8088/correction/modifier/57 (pour modifier une corection a partir de sa reference)
+     exemple :
+            {
+       	"ref" :57,	
+       	"valeur": 100
+       	}
+3 -- localhost:8088/correction/searchIntervalDate/2024-03-21,2024-03-20 (pour retrouver toutes les corrections dans  
+    un intervalle de temps donnés)
+4 -- localhost:8088/correction/supprimer/84 (pour supprimer une correctiona partir de sa reference)
+5 -- localhost:8088/correction/findAll/1 (pour afficher les corrections de l'utilisateur a partir de son ID)
+6 -- localhost:8088/correction/findOne/68 (pour afficher une seule correction a partir de sa reference)
   
