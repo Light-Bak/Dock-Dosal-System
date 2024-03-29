@@ -23,7 +23,7 @@ exemple :
        	"password" : "$2a$10$KkB3bXU52TzfqvPHMzPb1u1b9QcUWeWhA4s4ZGn3bTXYaBVJ.6vI2"
        }
 
-en reponse un token est généré avec lequel il poura s'authentifier.(Pour le reste de la sécurité, nous n'avons pas eu le temps de l'implementer). 
+en reponse un token est généré avec lequel il poura s'authentifier.
 
 3 -- localhost:8088/utilisateurs/modifier/76 (pour modifier un user par sa reference)
 exemple : 
