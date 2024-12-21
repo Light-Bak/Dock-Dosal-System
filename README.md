@@ -1,5 +1,5 @@
 # Dock-Dosal-System
-service web
+API Java
 
 
  0 -- Au lancement du programme, l'utilisateur ADMIN est automatiquement insérer dans la BD
