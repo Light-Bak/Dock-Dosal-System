@@ -1,5 +1,5 @@
 # Dock-Dosal-System
- Projet service web ISGE-BF
+service web
 
 
  0 -- Au lancement du programme, l'utilisateur ADMIN est automatiquement insérer dans la BD
